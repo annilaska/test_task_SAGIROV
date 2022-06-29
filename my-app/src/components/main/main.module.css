@@ -6,7 +6,7 @@
 
 
 .main__button {
-   
+    cursor: pointer;
     width: 150px;
     background: none;
     color: hsl(0, 0%, 70%);
@@ -20,6 +20,7 @@
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -51,6 +52,7 @@
 .leftPart {
     display: flex;
     flex-direction: column;
+    align-items: center;
     grid-area: l;
     color: linear-gradient(to bottom right, blue, pink);
     padding: 50px;
@@ -58,12 +60,14 @@
 
 
 .rightPart {
-    padding: 50px;
+    padding: 100px;
     grid-area: r;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+
 }
 
 .rightPart button {
@@ -71,19 +75,22 @@
     width: 200px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 .rightPart__button1 {
-   
     background: linear-gradient(-70deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
 }
 
 .rightPart__button2 {
     background: linear-gradient(70deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
 }
+
 .rightPart__button3 {
     background: linear-gradient(-140deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
 }
+
 .rightPart__button4 {
     background: linear-gradient(140deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
 }
@@ -111,6 +118,60 @@
     margin-top: 15px;
     font-size: 42px;
     font-weight: 600;
-    
 }
 
+@media screen and (max-width: 1200px) {
+    .main__textContent_h1 {
+        font-size: 32px;
+    }
+
+    .main__textContent_h2 {
+        font-size: 16px;
+    }
+
+    .rightPart button {
+        height: 150px;
+        width: 150px;
+    }
+
+    .bigText {
+        margin-top: 10px;
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    .rightPart {
+        margin-left: 200px;
+        margin-right: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .rightPart button {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .rightPart button {
+        height: 60px;
+        width: 60px;
+    }
+
+    .bigText {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .main__conteiner {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

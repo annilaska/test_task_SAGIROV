@@ -1,13 +1,24 @@
-@media screen and (max-width: 1200px) {
-    .header__li a {
-        margin: 0;
-    }
+
+
+.dropDownButton {
+    display: none;
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+    border: none;
+    background: none;
+    position:static;
+    z-index: 2;
 }
+
 
 .header__conteiner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
     height: 100px;
 }
@@ -25,23 +36,17 @@
     border-style: solid;
     border-width: 0.01em;
     box-sizing: border-box;
-    margin-top: 2px;
-}
-
-.header {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-top: 10px;
 }
 
 
 .header__nav {
+    width: 1100px;
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 
 .header__li a {
@@ -61,12 +66,12 @@
 
 
 .header__logoWrapper {
-    width: 400px;
+    margin-top: 8px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 120px;
+    z-index: 2;
 }
 
 
@@ -75,3 +80,58 @@
     z-index: 2;
 }
 
+
+@media screen and (max-width: 1850px) {
+    .header__nav {
+        width: 700px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .header__nav {
+        width: auto;
+    }
+
+  
+    .header__li a {
+        font-size: 14px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__li a {
+        margin: 10px;
+    }
+
+
+    .header__logoWrapper {
+        transform: scale(0.8);
+    }
+
+    .header__li a {
+        font-size: 14px;
+        line-height: 45px;
+    }
+
+
+    .header__conteiner {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 950px) {
+  
+    .header__nav {
+        display: none;
+    }
+
+    .dropDownButton {
+        display: table;
+        margin-right: 10px;
+    }
+
+    .header__conteiner {
+        justify-content: space-around;
+    }
+}

@@ -12,7 +12,7 @@ import Contacts from './components/contacts/contacts';
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
         <div className="AppDiv"></div>
           <Header />

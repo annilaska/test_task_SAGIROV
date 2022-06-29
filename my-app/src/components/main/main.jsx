@@ -10,20 +10,17 @@ const Main = () => {
 
             <div className={s.leftPart}>
                 <div className={s.main__textContent}>
+
                     <h1 className={s.main__textContent_h1}>ПУТЕШЕСТВИЕ</h1>
                     <h2 className={s.main__textContent_h2}>на красную планету</h2>
-                </div>
 
-             
-                <button className={s.main__button}>
-                    
+                    <button className={s.main__button}>
                         <img className={s.rightCorner} src={corner4} alt='' />
                         Начать путешествие
                         <img className={s.leftCorner} src={corner1} alt='' />
-                    
-                </button>
-                    
-              
+                    </button>
+
+                </div>
             </div>
 
             <div className={s.rightPart}>

@@ -3,14 +3,23 @@ import s from './header.module.css';
 import logo from '../../assets/logo.svg';
 import corners from '../../assets/corners.svg';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import DropDownMenu from '../dropDownMenu/dropDownMenu';
 
 
 
 const Header = () => {
+
+    const [isDropDownVisible, setDropDownVisibl] = useState(false);
+
+    const handleClick = () => {
+        setDropDownVisibl(!isDropDownVisible)
+      }
+
+
     return (
         <div className={s.header__conteiner}>
-            <div className={s.overlay}></div>
-            <div className={s.header}>
+           
                 <div className={s.header__logoWrapper}>
                     <div className={s.logo}><img src={logo} alt='' /></div>
                     <div className={s.corners}><img src={corners} alt='' /></div>
@@ -23,7 +32,11 @@ const Header = () => {
                     <div className={s.header__li}><NavLink to='/aboutCompanyPage' className={navItem => navItem.isActive ? s.active : ''}>О компании</NavLink></div>
                     <div className={s.header__li}><NavLink to='/contacts' className={navItem => navItem.isActive ? s.active : ''}>Контакты</NavLink></div>
                 </nav>
-            </div>
+
+                <button className={s.dropDownButton} onClick={handleClick}>Меню</button>
+                {isDropDownVisible && <DropDownMenu className={s.dropDown}/>}
+                <div className={s.overlay}></div>
+
         </div>
     )
 };
