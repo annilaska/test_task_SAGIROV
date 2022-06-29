@@ -60,7 +60,8 @@
 
 
 .rightPart {
-    padding: 100px;
+    margin-left: 400px;
+    margin-top: 100px;
     grid-area: r;
     display: flex;
     flex-direction: row;
@@ -120,6 +121,45 @@
     font-weight: 600;
 }
 
+
+
+@media screen and (max-width: 1700px) {
+    .rightPart {
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .rightPart {
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    .rightPart {
+        margin-left: 200px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .rightPart button {
+        height: 100px;
+        width: 100px;
+    }
+
+   
+    
+    .bigText {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+}
+
 @media screen and (max-width: 1200px) {
     .main__textContent_h1 {
         font-size: 32px;
@@ -129,40 +169,23 @@
         font-size: 16px;
     }
 
-    .rightPart button {
-        height: 150px;
-        width: 150px;
-    }
-
+   
     .bigText {
         margin-top: 10px;
         font-size: 32px;
         font-weight: 400;
     }
-}
 
-
-@media screen and (max-width: 1250px) {
     .rightPart {
-        margin-left: 200px;
-        margin-right: 10px;
-        width: 250px;
-        height: 250px;
-    }
-
-    .rightPart button {
-        height: 100px;
-        width: 100px;
+        margin-left: 100px;
     }
 }
 
-@media screen and (max-width: 900px) {
 
-    .rightPart button {
-        height: 60px;
-        width: 60px;
-    }
 
+@media screen and (max-width: 1000px) {
+
+  
     .bigText {
         margin-top: 10px;
         font-size: 20px;
@@ -171,7 +194,57 @@
 
     .main__conteiner {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .rightPart  {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .rightPart {
+        margin-left: 50px;
+        margin-top: 260px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .rightPart {
+        grid-template-areas: none;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .leftPart {
+        grid-template-areas: none;
+    }
+
+    .rightPart {
+        margin-left: 400px;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .rightPart {
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .rightPart {
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rightPart {
+        margin-left: 100px;
+        margin-top: 40px;
     }
 }
