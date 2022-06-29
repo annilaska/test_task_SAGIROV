@@ -1,0 +1,116 @@
+.main__background_image {
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+}
+
+
+.main__button {
+   
+    width: 150px;
+    background: none;
+    color: hsl(0, 0%, 70%);
+    font-size: 12px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-color: hsl(0, 0%, 20%);
+    border-style: solid;
+    border-width: 0.01em;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.rightCorner {
+    align-self: flex-end;
+    margin-right: -5px;
+}
+
+.leftCorner {
+    align-self: flex-start;
+    margin-left: -5px;
+}
+
+
+.main__conteiner {
+    background-image: url(../../assets/mars-kosmos.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: "l r";
+    margin-top: -100px;
+    height: 600px;
+    padding-top: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.leftPart {
+    display: flex;
+    flex-direction: column;
+    grid-area: l;
+    color: linear-gradient(to bottom right, blue, pink);
+    padding: 50px;
+}
+
+
+.rightPart {
+    padding: 50px;
+    grid-area: r;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.rightPart button {
+    height: 200px;
+    width: 200px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.rightPart__button1 {
+   
+    background: linear-gradient(-70deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
+}
+
+.rightPart__button2 {
+    background: linear-gradient(70deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
+}
+.rightPart__button3 {
+    background: linear-gradient(-140deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
+}
+.rightPart__button4 {
+    background: linear-gradient(140deg, rgba(202, 202, 209, 0.247), rgba(0, 0, 0, 0));
+}
+
+.main__textContent_h1 {
+    margin: 0;
+    font-size: 64px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgba(255, 250, 248, 1) 33%, rgb(222, 113, 80) 55%, rgb(249, 61, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__textContent_h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgba(255, 250, 248, 1) 33%, rgb(222, 113, 80) 55%, rgb(249, 61, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bigText {
+    margin-top: 15px;
+    font-size: 42px;
+    font-weight: 600;
+    
+}
+

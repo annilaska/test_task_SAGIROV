@@ -1,0 +1,30 @@
+<svg width="326" height="104" viewBox="0 0 326 104" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g opacity="0.21">
+<path d="M1.35833 0H0.328125V103.03H1.35833V0Z" fill="#989393"/>
+</g>
+<g opacity="0.21">
+<path d="M325.874 0H324.844V103.03H325.874V0Z" fill="#989393"/>
+</g>
+<rect x="0.328125" y="95.8182" width="7.21146" height="7.21212" fill="url(#pattern0)"/>
+<rect x="0.328125" width="7.21146" height="7.21212" fill="url(#pattern1)"/>
+<rect x="318.663" y="95.8182" width="7.21146" height="7.21212" fill="url(#pattern2)"/>
+<rect x="318.663" width="7.21146" height="7.21212" fill="url(#pattern3)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_10_18" transform="scale(0.142857)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_10_18" transform="scale(0.142857)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image2_10_18" transform="scale(0.142857)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image3_10_18" transform="scale(0.142857)"/>
+</pattern>
+<image id="image0_10_18" width="7" height="7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH0lEQVQIW2P8////fwYGBkYGLIAJm+BASrJA6f/YJAE7SwUMraCHzwAAAABJRU5ErkJggg=="/>
+<image id="image1_10_18" width="7" height="7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAAsSAAALEgHS3X78AAAAG0lEQVQIW2P8////fwYcgAVKM2KTZMImOJCSACdlBA2cFTUcAAAAAElFTkSuQmCC"/>
+<image id="image2_10_18" width="7" height="7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAAsSAAALEgHS3X78AAAAIElEQVQIW2P8//8/Aw7wnwmXDAMDA8NASLIwMDDgdC4AJpwFC5VK9DMAAAAASUVORK5CYII="/>
+<image id="image3_10_18" width="7" height="7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAAsSAAALEgHS3X78AAAAIklEQVQIW8XJsQ0AAAjDsBTx/8vhgs54dVQpFkg5pwQAH3m41wUMp55boAAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
