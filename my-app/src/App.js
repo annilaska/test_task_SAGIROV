@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Main from './components/main/main';
 import Technology from './components/technology/technology';
@@ -12,7 +12,7 @@ import Contacts from './components/contacts/contacts';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <div className="AppDiv"></div>
           <Header />
@@ -32,7 +32,7 @@ function App() {
             </Routes>
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
