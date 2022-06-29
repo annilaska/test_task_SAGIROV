@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test_task_SAGIROV/static/css/main.1bed7057.css",
+    "main.css": "/test_task_SAGIROV/static/css/main.691ac7fa.css",
     "main.js": "/test_task_SAGIROV/static/js/main.2be09615.js",
     "static/js/787.28cb0dcd.chunk.js": "/test_task_SAGIROV/static/js/787.28cb0dcd.chunk.js",
     "static/media/mars-kosmos.jpg": "/test_task_SAGIROV/static/media/mars-kosmos.1ad13125bb8bb7e56534.jpg",
@@ -9,12 +9,12 @@
     "index.html": "/test_task_SAGIROV/index.html",
     "static/media/corner1.svg": "/test_task_SAGIROV/static/media/corner1.7794bb805c387694d642efdfa36ee19a.svg",
     "static/media/corner4.svg": "/test_task_SAGIROV/static/media/corner4.6336c7e15767216fc20f6c9c33581fb1.svg",
-    "main.1bed7057.css.map": "/test_task_SAGIROV/static/css/main.1bed7057.css.map",
+    "main.691ac7fa.css.map": "/test_task_SAGIROV/static/css/main.691ac7fa.css.map",
     "main.2be09615.js.map": "/test_task_SAGIROV/static/js/main.2be09615.js.map",
     "787.28cb0dcd.chunk.js.map": "/test_task_SAGIROV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bed7057.css",
+    "static/css/main.691ac7fa.css",
     "static/js/main.2be09615.js"
   ]
 }
